@@ -1,1 +1,2 @@
 # Ninja
+SPlash page
