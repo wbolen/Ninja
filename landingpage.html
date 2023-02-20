@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("HTP Final.png");
+}
+.signin{
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+* {box-sizing: border-box}
+input[type=signintext], input[type=signinpassword] {
+   width: 35%;
+   font-size: 13px;
+   padding: 5px;
+   margin: 5px 0 10px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+}
+
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+   width: 60%;
+   font-size: 20px;
+   padding: 10px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+}
+label{
+   font-size: 20px;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+}
+.signinbutton {
+   font-size: 15px;
+   font-weight: bold;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 5px 5px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 25%;
+   opacity: 0.9;
+}
+bu
+button:hover {
+   opacity:1;
+}
+.cancel {
+   padding: 14px 20px;
+   background-color: #4d4d4d;
+}
+.signup {
+   padding: 16px;
+    position: absolute;
+    top: 265px;
+    left: 100px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+</style>
+</head>
+
+<body>
+<form>
+    <div class="signin">
+        <h2>Sign in</h2>
+        <input type="signintext" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="signinpassword" id="inputPassword" class="form-control" placeholder="Password" required>
+        <button class= "signinbutton" type="submit">Sign in</button>
+    </div>
+</form>
+</body>
+
+<body>
+    <form>
+        <div class= "signup">
+        <h2> New? Sign Up Here</h2>
+        <hr>
+        <label for="contact"><b>Contact Name</b></label>
+        <input type="text" id="mainContact" class="form-control" placeholder="Contact Name" required>
+        <hr>
+        <label for="email"><b>Enter Email</b></label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
+        <hr>
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="text" id="inputphone" class="form-control" placeholder="Phone Number" required>
+        <hr>
+        <button type="button" class="cancel">Cancel</button>
+        <button class="button" type="submit">Sign up</button>
+      
+        </div>
+</form>
+</body>
+<body>
+    <a href="https://www.htpconsultingservices.com/" style="position:absolute; top: 380px; left: 120px;">Visit HTPConsultingServices.com! </a>
+</body>
+
+
+</html>
